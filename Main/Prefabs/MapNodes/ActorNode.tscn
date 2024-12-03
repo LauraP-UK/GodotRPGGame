@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://balhaj6odmsy0"]
+
+[ext_resource type="Script" path="res://Main/Scripts/MapNodes/ActorDataNode.gd" id="1_a1h66"]
+[ext_resource type="PackedScene" uid="uid://bjljku1a8hgsw" path="res://Main/Prefabs/Actors/Animations/character_sprite.tscn" id="2_ill57"]
+[ext_resource type="PackedScene" uid="uid://618sbakffa4y" path="res://Main/Prefabs/Actors/Animations/actor_animation_player.tscn" id="3_dbtdk"]
+
+[node name="NpcNode" type="Node2D"]
+script = ExtResource("1_a1h66")
+
+[node name="CharacterSprite" parent="." instance=ExtResource("2_ill57")]
+modulate = Color(1, 1, 1, 0.501961)
+
+[node name="AnimationPlayer" parent="." instance=ExtResource("3_dbtdk")]

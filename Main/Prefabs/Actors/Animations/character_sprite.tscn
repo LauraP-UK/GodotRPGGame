@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bjljku1a8hgsw"]
+
+[ext_resource type="Texture2D" uid="uid://brwire2pfchnn" path="res://Main/Images/Tilesets/MainChar.png" id="1_e0qcj"]
+
+[node name="CharacterSprite" type="Sprite2D"]
+position = Vector2(8, 0)
+texture = ExtResource("1_e0qcj")
+region_enabled = true
+region_rect = Rect2(0, 0, 16, 32)

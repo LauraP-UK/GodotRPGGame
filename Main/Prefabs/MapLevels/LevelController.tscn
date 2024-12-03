@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://cqhovv8tq8njy"]
+
+[ext_resource type="Script" path="res://Main/Scripts/MapData/LevelController.gd" id="1_7t50i"]
+
+[node name="LevelController" type="Node2D"]
+scale = Vector2(3, 3)
+script = ExtResource("1_7t50i")
+
+[node name="LevelLoad" type="Node2D" parent="."]
+
+[node name="Actors" type="Node2D" parent="."]
+z_index = 1
+y_sort_enabled = true

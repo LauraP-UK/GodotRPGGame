@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://caagjgvjcphvw"]
+
+[ext_resource type="Texture2D" uid="uid://cn37jamesl4xf" path="res://Main/Images/Tilesets/EngineIcons.png" id="1_4kqpd"]
+[ext_resource type="Script" path="res://Main/Scripts/MapNodes/SoftLoadDataNode.gd" id="1_yeirc"]
+
+[node name="SoftLoadDataNode" type="Node2D"]
+modulate = Color(1, 1, 1, 0.501961)
+script = ExtResource("1_yeirc")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 16.0
+offset_bottom = 16.0
+
+[node name="Arrow" type="Sprite2D" parent="."]
+position = Vector2(8, 8)
+texture = ExtResource("1_4kqpd")
+region_enabled = true
+region_rect = Rect2(64, 16, 16, 16)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(8, 6)
+texture = ExtResource("1_4kqpd")
+region_enabled = true
+region_rect = Rect2(0, 0, 16, 16)

@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://cyogycy7geiaj"]
+
+[ext_resource type="Script" path="res://Main/Scripts/MapNodes/LoadZoneDataNode.gd" id="1_v2naj"]
+[ext_resource type="Texture2D" uid="uid://cn37jamesl4xf" path="res://Main/Images/Tilesets/EngineIcons.png" id="2_7gapu"]
+
+[node name="LoadZoneDataNode" type="Node2D"]
+modulate = Color(1, 1, 1, 0.501961)
+script = ExtResource("1_v2naj")
+
+[node name="Arrow" type="Sprite2D" parent="."]
+position = Vector2(8, 8)
+texture = ExtResource("2_7gapu")
+region_enabled = true
+region_rect = Rect2(-16, -16, 16, 16)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(8, 6)
+texture = ExtResource("2_7gapu")
+region_enabled = true
+region_rect = Rect2(0, 0, 16, 16)

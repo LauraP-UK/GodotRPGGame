@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://hhg6gevbyrix"]
+
+[node name="MasterLevel" type="Node2D"]
+
+[node name="Storeys" type="Node2D" parent="."]
+
+[node name="0" type="Node2D" parent="Storeys"]
+
+[node name="Lower" type="Node2D" parent="Storeys/0"]
+
+[node name="DataNodes" type="Node2D" parent="Storeys/0"]
+
+[node name="1" type="Node2D" parent="Storeys"]
+
+[node name="Lower" type="Node2D" parent="Storeys/1"]
+
+[node name="DataNodes" type="Node2D" parent="Storeys/1"]

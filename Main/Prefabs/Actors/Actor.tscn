@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://3gmlnl3g7h2t"]
+
+[ext_resource type="PackedScene" uid="uid://bjljku1a8hgsw" path="res://Main/Prefabs/Actors/Animations/character_sprite.tscn" id="1_t8i1j"]
+[ext_resource type="PackedScene" uid="uid://618sbakffa4y" path="res://Main/Prefabs/Actors/Animations/actor_animation_player.tscn" id="2_ljape"]
+
+[node name="Actor" type="Node2D"]
+y_sort_enabled = true
+
+[node name="CharacterSprite" parent="." instance=ExtResource("1_t8i1j")]
+y_sort_enabled = true
+
+[node name="AnimationPlayer" parent="." instance=ExtResource("2_ljape")]
